@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     private var activeProcess = false
     private var asteriks = 0
     private val stringList = ArrayList<String>()
-    private var text = ""
+    private var finalText = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -81,16 +81,16 @@ class MainActivity : AppCompatActivity() {
         for (strings in stringList) {
             if (strings.asteriks >= asteriks) {
                 for (i in 0 until strings.asteriks) {
-                    text += "*"
+                    finalText += "*"
                 }
             } else {
                 for (i in 0 until strings.asteriks) {
-                    text += strings.string
+                    finalText += strings.string
                 }
             }
         }
 
-        txtResult!!.text = text
+        txtResult!!.text = finalText
     }
 
     class String(internal var string: Char, internal var asteriks: Int) {
