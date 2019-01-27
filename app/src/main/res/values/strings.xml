@@ -4,4 +4,5 @@
     <string name="string">String</string>
     <string name="hit_me">Hit me</string>
     <string name="result_will_be_here">Result will be here</string>
+    <string name="not_be_empty">Not be empty</string>
 </resources>
