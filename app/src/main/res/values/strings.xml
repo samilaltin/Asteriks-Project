@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Asteriks Project</string>
+    <string name="asteriks">*</string>
+    <string name="string">String</string>
+    <string name="hit_me">Hit me</string>
+    <string name="result_will_be_here">Result will be here</string>
+</resources>
